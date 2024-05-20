@@ -18,10 +18,10 @@ def get_token():
     r = requests.post(
         "https://accounts.spotify.com/api/token",
         data={
-            "grant_type" = "refresh_token",
-            "refresh_token" = "AQCcEHeXwPZgfuMAxDmFJpWPqaP1svWFkIAKo9z67pm9gZQ5lfU_5nses3T8blaNR9sqyWleehQdamcDjt9sbHWF_s7ovgUnZlTCrmNR4WAnupbtAnnD-Q_swqLr6pd6flc",
-            "client_id" =  "b743091350654489b164b3a4912eda2b",
-            "client_secret" = "238ecf4e7c66425db65262ed75630f6c",
+            "grant_type": "refresh_token",
+            "refresh_token": "AQCcEHeXwPZgfuMAxDmFJpWPqaP1svWFkIAKo9z67pm9gZQ5lfU_5nses3T8blaNR9sqyWleehQdamcDjt9sbHWF_s7ovgUnZlTCrmNR4WAnupbtAnnD-Q_swqLr6pd6flc",
+            "client_id":  "b743091350654489b164b3a4912eda2b",
+            "client_secret": "238ecf4e7c66425db65262ed75630f6c",
         },
     )
     try:
